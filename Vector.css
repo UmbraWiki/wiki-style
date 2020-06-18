@@ -1,0 +1,449 @@
+/* la maggior parte di questo codice proviene da
+https://www.xenopedia.it/MediaWiki:Vector.css */
+
+/**** Sfondo ****/
+
+body {
+	background: #000000 url(http://umbrawiki.netsons.org/images/f/f7/Moon.png) no-repeat fixed;
+}
+#mw-page-base {
+	background: none;
+}
+
+/**** Colore testo ****/
+
+h1, h2, h3, h4, h5, h6, .mw-body, .parsoid-body, #mw-panel .portal h3, 
+.vectorTabs li.selected a, .vectorTabs li.selected a:visited, 
+.search-types .current a, .tocnumber, #bodyContent .mw-number-text h3 {
+	color: #fff;
+}
+
+/**** Colore link blu ****/
+
+a, a:visited, #mw-panel .portal .body li a, .toctogglelabel,
+#mw-panel .portal .body li a:visited, .vectorTabs li a, .vectorMenu li a {
+	color: #6dd1ff;
+	transition: .2s all ease-in-out;
+}
+a:hover, a:visited:hover, #mw-panel .portal .body li a:hover, 
+.toctogglelabel:hover, #mw-panel .portal .body li a:visited:hover, 
+.vectorTabs li a:hover, .vectorMenu li a:hover {
+	color: #fff;
+}
+
+/**** Colore link pagine vuote ****/
+
+a.new, #p-personal a.new, a.new:visited, #p-personal a.new:visited,
+.vectorTabs li.new a, .vectorTabs li.new a:visited, a.new:hover, 
+#p-personal a.new:hover, a.new:visited:hover, #p-personal a.new:visited:hover,
+.vectorTabs li.new a:hover, .vectorTabs li.new a:visited:hover {
+	color: #ff6a99;
+}
+
+/**** Colore link esterni ****/
+
+.mw-parser-output a.external, .mw-parser-output a.external:active, 
+.mw-parser-output a.extiw, .mw-parser-output a.extiw:active {
+	color: #84b6f7;
+}
+.mw-parser-output a.external:visited, .mw-parser-output a.extiw:visited {
+	color: #adabff;
+}
+.mw-parser-output a.external:hover, .mw-parser-output a.external:active:hover, 
+.mw-parser-output a.extiw:hover, .mw-parser-output a.extiw:active:hover,
+.mw-parser-output a.external:visited:hover, 
+.mw-parser-output a.extiw:visited:hover {
+	color: #fff;
+}
+
+/**** Barra della ricerca ****/
+
+#simpleSearch {
+	background: #161619;
+	border-color: #38383c;
+	padding: 1px 20px 1px 5px;
+	margin-top: -4px;
+}
+#simpleSearch input {
+	color: #fff;
+}
+
+/**** Contenitore e barra superiore ****/
+
+.mw-body, .parsoid-body {
+	background-color: #242425;
+}
+.mw-body {
+	border-color: #38383c;
+	border-bottom-left-radius: 0.625rem;
+	box-shadow: 0 0 2em #141414;
+}
+#left-navigation, #right-navigation {
+	margin-top: 48px;
+}
+.vectorMenu .menu {
+	background: #242425;
+	border: 1px solid #38383c;
+}
+#mw-head .vectorMenu h3 {
+	background: none;
+}
+#mw-head .vectorMenu h3 span {
+	padding: 9px 11px 0 9px;
+	color: #fff;
+}
+.vectorMenu h3 span:after {
+	content: '\2C5';
+	background: none;
+	opacity: 1;
+	top: 10px;
+	left: auto;
+}
+.vectorTabs {
+	background: none;
+	padding-left: 0;
+	height: 35px;
+}
+.vectorTabs ul {
+	border-top: 1px solid #38383c;
+	border-left: 1px solid #38383c;
+	border-top-left-radius: 0.625rem;
+}
+.vectorTabs ul li {
+	background: #181818;
+	border-bottom: 1px solid #38383c;
+	border-right: 1px solid #38383c;
+}
+.vectorTabs ul, .vectorTabs ul li:first-child {
+    border-top-left-radius: 0.625rem;
+    background: #242425;
+}
+.vectorTabs li.selected {
+	background: #242425;
+	border-bottom: 1px solid #242425;
+	margin: 0;
+}
+.vectorTabs span {
+	background: none;
+}
+.vectorTabs span a {
+	padding-top: 8px;
+}
+.vectorTabs #ca-unwatch.icon a, .vectorTabs #ca-watch.icon a {
+	margin: -6px 0 0 2px;
+}
+
+/**** Contenuto ****/
+
+h1, h2 {
+	text-shadow: 1px 1px 3px #111;
+	border-bottom: 1px solid #38383c;
+}
+hr {
+	color: #38383c;
+	background-color: #38383c;
+}
+textarea, input, select, .mw-ui-input {
+	border: 1px solid #38383c;
+	background: #161619;
+	color: #fff;
+	box-shadow: none;
+}
+ul {
+	list-style-image: none;
+}
+div.thumbinner {
+	border-color: #38383c;
+	background-color: #242425;
+	border-radius: 4px;
+	padding: 3px 2px;
+}
+#contentSub, #contentSub2 {
+	color: #7e8386;
+}
+.previewnote {
+	color: #ff546a;
+}
+.catlinks {
+	border-radius: 0.625rem;
+}
+.catlinks, .mw-search-profile-tabs, .list-header, #filetoc, 
+li.gallerybox div.thumb {
+    border: 1px solid #48484a;
+    background-color: #29292b;
+}
+ul.gallery {
+    text-align: center;
+}
+.ns-special .content-header {
+	border-bottom: 1px solid #38383c;
+	margin-bottom: 10px;
+}
+.page-list li, .topic-title-list li, .site-link-list li {
+	border-color: #38383c;
+}
+pre {
+	background: #101010;
+	border: 1px dashed #85bb6f;
+	color: #85bb6f;
+}
+pre * {
+    color: #85bb6f!important;
+}
+.toc, .mw-warning, .toccolours {
+	background: #2d2d2d;
+	border-color: #5a5a5d;
+	border-radius: 3px!important;
+}
+#pagehistory li {
+	border: 1px solid #38383c;
+	margin-bottom: 4px;
+	padding: 0 4px;
+}
+#pagehistory li.selected, #pagehistory li:hover {
+	background-color: #2D2D30;
+	border: 1px solid #38383c;
+	color: #fff;
+}
+#mw-indicator-mw-helplink a {
+	filter: invert(100%);
+	color: #000;
+}
+fieldset {
+	border-color: #38383c;
+	border-radius: 0.625rem;
+}
+input[type='submit'], input[type='button'], 
+input[type='reset'], input[type='file'] {
+	background: #2d2d30;
+	border: 1px solid #6dd1ff;
+	border-radius: 3px;
+	padding: 2px 15px;
+	color: #6dd1ff;
+	cursor: pointer;
+	transition: .2s all ease-in-out;
+}
+input[type='submit']:hover, input[type='button']:hover, 
+input[type='reset']:hover, input[type='file']:hover {
+	background: #242425;
+	border-color: #fff;
+	color: #fff;
+}
+table.wikitable, .mw-datatable, .mw-datatable td,
+.oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
+.oo-ui-buttonGroupWidget .oo-ui-buttonElement-framed.oo-ui-widget-disabled + .oo-ui-widget-disabled > .oo-ui-buttonElement-button,
+.mw_metadata td, .mw_metadata th {
+	background-color: #242425;
+	border: 1px solid #38383c;
+	color: #fff;
+}
+table.wikitable > tr > th, table.wikitable > * > tr > th, 
+.mw-datatable th, .mw-datatable tr:hover td {
+	background-color: #2D2D30;
+}
+table.wikitable > tr > th, table.wikitable > tr > td, 
+table.wikitable > * > tr > th, table.wikitable > * > tr > td,
+.mw-datatable, .mw-datatable td, .mw-datatable th, .mw_metadata th {
+	border: 1px solid #4d4e54;
+}
+code {
+	background-color: #1f1f1f;
+	border: 1px solid #4d4e54;
+	color: #fff;
+}
+.mw-ui-button-group a:hover {
+    color: #444;
+}
+.mw-mmv-post-image, .mw-mmv-image-metadata, .mw-mmv-image-links li {
+	background-color: #242425;
+	border-color: #38383c;
+	color: #fff;
+}
+.mw-number-text {
+	color: #777;
+}
+#mw-createaccount-join {
+	background-color: #168a4e;
+	border-color: #168a4e;
+	color: #fff;
+	box-shadow: none;
+}
+#mw-createaccount-join:hover, #mw-createaccount-join:active {
+	background-color: #2a965e;
+	border-color: #2a965e;
+	color: #fff;
+}
+
+/**** Editor ****/
+
+.editOptions {
+	background-color: #1c1c1c;
+	border: 1px solid #38383c;
+	border-top: 0;
+	color: #fff;
+}
+.wikiEditor-ui-toolbar {
+	background: #dadada;
+}
+.wikiEditor-ui .wikiEditor-ui-view {
+	border: 1px solid #38383c;
+}
+.wikiEditor-ui-toolbar .tabs span.tab a, 
+.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+	color: #2a549a;
+}
+.oo-ui-textInputWidget input, .oo-ui-textInputWidget textarea {
+	background-color: #161619;
+	color: #fff;
+	border: 1px solid #38383c;
+}
+.rcfilters-head .oo-ui-textInputWidget input {
+	background: #fff;
+	color: #000;
+	border: 1px solid #a2a9b1;
+}
+.rcfilters-container {
+	background: #f6f6f9;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px dashed #242425;
+}
+.tool-button.tool-active, 
+.tool.tool-active.oo-ui-buttonElement-frameless.oo-ui-iconElement {
+	padding: 3px 3px 2px 4px;
+	background: #b5b5b5;
+	outline: none;
+	box-shadow: none;
+}
+.wikiEditor-ui-toolbar {
+/* Fix rapido ma non ottimale per cambiare il colore dei file svg */
+	filter: invert(100%); 
+	color: #753617;
+}
+.wikiEditor-ui-toolbar .sections .section {
+	background-color: #dadada;
+	border-top: 1px solid #c3c3c3;
+}
+.wikiEditor-ui-toolbar .booklet .index .current {
+	background-color: #e2e2e2;
+}
+.wikiEditor-ui-toolbar .booklet .index div, 
+.wikiEditor-ui-toolbar .tabs span.tab a, 
+.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+	color: #753617;
+}
+.wikiEditor-ui-toolbar .page-characters div span {
+	padding: 5px 8px 18px 8px;
+}
+.wikiEditor-ui textarea, .mw-editform #wpTextbox1 {
+	background: #161619;
+	color: #fff;
+}
+.mw-editform #wpTextbox1 {
+	border-color: #38383c;
+}
+.wikiEditor-ui .wikiEditor-ui-top {
+	border-bottom: 1px solid #38383c;
+}	
+
+/**** Preferenze ****/
+
+.oo-ui-panelLayout-framed, #preferences .oo-ui-panelLayout-framed {
+	border-color: #38383c;
+}
+.oo-ui-labelWidget.oo-ui-inline-help {
+	color: #777;
+}
+.oo-ui-tabSelectWidget {
+	background-color: #161619;
+	border-bottom: 1px solid #38383c;
+}
+.oo-ui-tabOptionWidget {
+	color: #6dd1ff;
+}
+.oo-ui-tabOptionWidget.oo-ui-optionWidget-selected, 
+.oo-ui-tabOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget-selected:hover, 
+.oo-ui-tabOptionWidget.oo-ui-widget-enabled:hover {
+	background-color: #242425;
+	color: #fff;
+}
+.oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label {
+	border-bottom-color: transparent;
+}
+.mw-email-not-authenticated .oo-ui-labelWidget, 
+.mw-email-none .oo-ui-labelWidget {
+	background-color: #161619;
+	border: 1px dashed #ff6a99;
+	color: #fff;
+}
+
+/**** Risultati della ricerca ****/
+
+.mw-search-result-data {
+	color: #47ffab;
+}
+#mw-searchoptions {
+	background-color: #29292b;
+	border-color: #48484a;
+}
+#mw-searchoptions .divider {
+	border-color: #38383c;
+}
+.oo-ui-icon-search, .mw-ui-icon-search:before, .oo-ui-indicator-clear {
+	filter: invert(100%);
+}
+
+/**** Ultime modifiche ****/
+
+.mw-plusminus-pos {
+	color: #47ffab;
+}
+.mw-plusminus-neg {
+	color: #ff6a99;
+}
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
+	background-color: #181818;
+	border: 1px solid #38383c;
+	color: #f0f0f0;
+}
+.mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
+	background: #fff;
+}
+
+.mw-changeslist-legend {
+	border-radius: 0.625rem;
+}
+
+/**** Differenze tra le versioni ****/
+.diff-addedline, .diff-deletedline, .diff-context {
+  background-color: #161619;
+  color: #fff;
+}
+
+.diff-deletedline {
+  border-color: #A69567;
+}
+
+.diff-deletedline .diffchange {
+  background: #A69567;
+}
+
+.diff-addedline {
+  border-color: #6A89A6;
+}
+
+.diff-addedline .diffchange {
+  background: #6A89A6;
+}
+
+/**** Footer ****/
+
+#footer ul li {
+	color: #aaa;
+}
+
+/**** Immagini ****/
+.thumbimage {
+	background-color: transparent!important;
+}
+
