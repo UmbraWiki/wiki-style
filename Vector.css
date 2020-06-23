@@ -447,3 +447,7 @@ code {
 	background-color: transparent!important;
 }
 
+/**** Riferimenti ****/
+ol.references li:target, sup.reference:target {
+	background: #000019; /* vedi issue #13 */
+}
