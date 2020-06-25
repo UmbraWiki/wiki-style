@@ -118,6 +118,9 @@ a.new, #p-personal a.new, a.new:visited, #p-personal a.new:visited,
     border-top-left-radius: 0.625rem;
     background: #242425;
 }
+.vectorTabs ul, .vectorTabs ul li:last-child {
+    border-top-left-radius: 0.625rem;
+}
 .vectorTabs li.selected {
 	background: #242425;
 	border-bottom: 1px solid #242425;
