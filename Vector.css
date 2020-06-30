@@ -418,6 +418,7 @@ code {
 }
 
 /**** Differenze tra le versioni ****/
+
 .diff-addedline, .diff-deletedline, .diff-context {
   background-color: #161619;
   color: #fff;
@@ -446,11 +447,18 @@ code {
 }
 
 /**** Immagini ****/
+
 .thumbimage {
 	background-color: transparent!important;
 }
 
 /**** Riferimenti ****/
+
 ol.references li:target, sup.reference:target {
 	background: #000019; /* vedi issue #13 */
+}
+
+/**** classi non compatibili con altre skin ****/
+.background-bg, .background-rows tbody td, .std-table tbody td, .background-rows.grid > :not(:first-child) > :not(.grid-header), .grid.std-table > :not(:first-child) > :not(.grid-header), .bg-background {
+    background: #242425; /* vedi issue #15 */
 }
