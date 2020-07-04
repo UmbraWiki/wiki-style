@@ -1,11 +1,9 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 /**************************************************
 
-Mobile CSS styles for Pokémon Central Wiki.
-
-This file is compiled from SCSS sources:
-project available on Pokémon Central GitHub,
-at https://github.com/pokemoncentral/wiki-styles
+Mobile CSS styles for UmbraWiki.
 
 **************************************************/
 /**************************************************
@@ -39,7 +37,7 @@ Root styles
 
 **************************************************/
 html, body {
-    font-family: "RooneySansWeb", Helvetica, Arial, sans-serif !important;
+    font-family:  Lato, "RooneySansWeb", Helvetica, Arial, sans-serif !important;
 }
 
 body {
@@ -64,7 +62,7 @@ MediaWiki overriding styles
 
 **************************************************/
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
-    font-family: "RooneySansWeb", Helvetica, Arial, sans-serif;
+    font-family:  Lato, "RooneySansWeb", Helvetica, Arial, sans-serif;
     text-rendering: optimizeLegibility;
 }
 
@@ -164,17 +162,6 @@ Shorthand classes
 Miscellaneous styles
 
 **************************************************/
-.sitenotice {
-    box-sizing: border-box;
-    margin-top: 1.5ex;
-    margin-bottom: 1.5ex;
-    padding: 0.5ex 1ex;
-    background: linear-gradient(to right, #D0E6FF, #7CBAFF);
-}
-
-.mw-echo-icon-pcw {
-    background-image: url("//media.pokemoncentral.it/wiki/wiki-icn.png");
-}
 
 .mw-collapsible-toggle {
     padding-left: 0.4375rem;
@@ -2216,10 +2203,6 @@ Overriding of system mobile styles
 /**** Pagina principale ****/
 
 .umbrabox {
-    background-size: 100%;
-    background-image: -moz-linear-gradient(315deg, #0e114f, #05072b);
-    background-image: -webkit-linear-gradient(315deg, #0e114f, #05072b);
-    background-image: linear-gradient(135deg, #0e114f, #05072b);
     padding: 10px;
 }
 .umbrabox:not(:last-child) {

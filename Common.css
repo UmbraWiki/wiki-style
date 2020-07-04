@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 /**************************************************
 
-Desktop CSS styles for Pokémon Central Wiki.
-
-This file is compiled from SCSS sources:
-project available on Pokémon Central GitHub,
-at https://github.com/pokemoncentral/wiki-styles
+Desktop CSS styles for UmbraWiki.
 
 **************************************************/
 /**************************************************
@@ -2181,152 +2177,6 @@ Collapsible styles
     color: #EAEAEA;
 }
 
-/**************************************************
-
-Light box styles
-
-**************************************************/
-.light-box {
-  color: #222222;
-}
-
-.light-box a, .light-box a:visited {
-  color: #0645ad;
-}
-
-.light-box a.new, .light-box a.new:visited {
-  color: #ba0000;
-}
-
-.light-box a.external, .light-box a.external:visited {
-  color: #3366bb;
-}
-
-/*** Diagramma Intesa Gladius ***/
-/*
-.affinity-chart {
-  width: 700px;
-  height: 375px;
-}
-
-.affinity-chart-column {
-  position: relative;
-  float: left;
-  top: 346px;
-  background: black;
-  height: 0px;
-  width: 700px;
-}
-
-.affinity-chart-column:nth-child(1) {
-  transform: rotateZ(0deg);
-}
-
-.affinity-chart-column:nth-child(2) {
-  transform: rotateZ(20deg);
-}
-
-.affinity-chart-column:nth-child(3) {
-  transform: rotateZ(40deg);
-}
-
-.affinity-chart-column:nth-child(4) {
-  transform: rotateZ(60deg);
-}
-
-.affinity-chart-column:nth-child(5) {
-  transform: rotateZ(80deg);
-}
-
-.affinity-chart-column:nth-child(6) {
-  transform: rotateZ(100deg);
-}
-
-.affinity-chart-column:nth-child(7) {
-  transform: rotateZ(120deg);
-}
-
-.affinity-chart-column:nth-child(8) {
-  transform: rotateZ(140deg);
-}
-
-.affinity-chart-column:nth-child(9) {
-  transform: rotateZ(160deg);
-}
-
-.affinity-chart-column:nth-child(10) {
-  transform: rotateZ(180deg);
-}
-
-.affinity-chart-column:nth-child(1) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(0deg);
-}
-
-.affinity-chart-column:nth-child(2) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-20deg);
-}
-
-.affinity-chart-column:nth-child(3) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-40deg);
-}
-
-.affinity-chart-column:nth-child(4) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-60deg);
-}
-
-.affinity-chart-column:nth-child(5) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-80deg);
-}
-
-.affinity-chart-column:nth-child(6) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-100deg);
-}
-
-.affinity-chart-column:nth-child(7) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-120deg);
-}
-
-.affinity-chart-column:nth-child(8) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-140deg);
-}
-
-.affinity-chart-column:nth-child(9) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-160deg);
-}
-
-.affinity-chart-column:nth-child(10) .affinity-chart-element .affinity-chart-inner-element {
-  transform: rotate(-180deg);
-}
-
-.affinity-chart-inner-column {
-  width: 236px;
-  height: 2px;
-  background: black;
-  margin-top: -1px;
-}
-
-.affinity-chart-element {
-  float: left;
-  width: 36px;
-  margin-right: 14px;
-}
-
-.affinity-chart-element:after {
-  display: block;
-  clear: both;
-  content: '';
-}
-
-.affinity-chart-inner-element {
-  width: 36px;
-  height: 36px;
-  margin-top: -17px;
-  text-align: center;
-  line-height: 36px;
-  border-radius: 50%;
-  background: #AAA;
-}*/
-
 /**** Logo ****/
 #p-logo a {
 	background-position: center center;
@@ -2335,12 +2185,6 @@ Light box styles
 /**** Pagina principale ****/
 .umbrabox, .umbrasocial span>span {
 	background: #2c2c31;
-}
-.umbraintestazione, .umbrasocial p>span {
-	background-size: 100%;
-    background-image: -moz-linear-gradient(315deg, #570c66,#570e8f);
-    background-image: -webkit-linear-gradient(315deg, #570c66,#570e8f);
-    background-image: linear-gradient(135deg, #570c66,#570e8f);
 }
 .umbrabox {
     padding: 3px;

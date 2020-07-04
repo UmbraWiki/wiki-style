@@ -1,0 +1,208 @@
+/* CSS placed here will affect users of the Timeless skin */
+
+/**** Colore testo ****/
+
+h1, h2, h3, h4, h5, h6, .mw-body, .parsoid-body, #mw-panel .portal h3,
+.vectorTabs li.selected a, .vectorTabs li.selected a:visited,
+.search-types .current a, .tocnumber, #bodyContent .mw-number-text h3 {
+	color: #fff;
+}
+
+/**** Colore link blu ****/
+
+a, a:visited, #mw-panel .portal .body li a, .toctogglelabel,
+#mw-panel .portal .body li a:visited, .vectorTabs li a, .vectorMenu li a {
+	color: #6dd1ff;
+	transition: .2s all ease-in-out;
+}
+a:hover, a:visited:hover, #mw-panel .portal .body li a:hover,
+.toctogglelabel:hover, #mw-panel .portal .body li a:visited:hover,
+.vectorTabs li a:hover, .vectorMenu li a:hover {
+	color: #fff;
+}
+
+
+/**** Colore link pagine vuote ****/
+
+a.new, #p-personal a.new, a.new:visited, #p-personal a.new:visited,
+.vectorTabs li.new a, .vectorTabs li.new a:visited, a.new:hover,
+#p-personal a.new:hover, a.new:visited:hover, #p-personal a.new:visited:hover,
+.vectorTabs li.new a:hover, .vectorTabs li.new a:visited:hover {
+	color: #ff6a99;
+}
+
+/**** Colore link esterni ****/
+
+.mw-parser-output a.external, .mw-parser-output a.external:active,
+.mw-parser-output a.extiw, .mw-parser-output a.extiw:active {
+	color: #84b6f7;
+}
+.mw-parser-output a.external:visited, .mw-parser-output a.extiw:visited {
+	color: #adabff;
+}
+.mw-parser-output a.external:hover, .mw-parser-output a.external:active:hover,
+.mw-parser-output a.extiw:hover, .mw-parser-output a.extiw:active:hover,
+.mw-parser-output a.external:visited:hover,
+.mw-parser-output a.extiw:visited:hover {
+	color: #fff;
+}
+
+/**** Contenitore ****/
+#mw-content {
+	background-color: #242425;
+	border-color: #38383c;
+	border-bottom-left-radius: 0.625rem;
+	border-bottom-right-radius: 0.625rem;
+	box-shadow: 0 0 2em #141414;
+}
+
+/**** Barra della ricerca ****/
+
+#simpleSearch {
+	background: #161619;
+	border-color: #38383c;
+	padding: 1px 20px 1px 5px;
+	margin-top: -4px;
+	border-radius: 0.625rem;
+}
+#simpleSearch input {
+	color: #fff;
+}
+
+/**** Contenuto ****/
+
+h1, h2 {
+	text-shadow: 1px 1px 3px #111;
+	border-bottom: 1px solid #38383c;
+}
+hr {
+	color: #38383c;
+	background-color: #38383c;
+}
+textarea, input, select, .mw-ui-input {
+	border: 1px solid #38383c;
+	background: #161619;
+	color: #fff;
+	box-shadow: none;
+}
+ul {
+	list-style-image: none;
+}
+div.thumbinner {
+	border-color: #38383c;
+	background-color: #242425;
+	border-radius: 4px;
+	padding: 3px 2px;
+}
+#contentSub, #contentSub2 {
+	color: #7e8386;
+}
+.previewnote {
+	color: #ff546a;
+}
+.catlinks {
+	border-radius: 0.625rem;
+}
+.catlinks, .mw-search-profile-tabs, .list-header, #filetoc,
+li.gallerybox div.thumb {
+    border: 1px solid #48484a;
+    background-color: #29292b;
+}
+.ns-special .content-header {
+	border-bottom: 1px solid #38383c;
+	margin-bottom: 10px;
+}
+.page-list li, .topic-title-list li, .site-link-list li {
+	border-color: #38383c;
+}
+pre {
+	background: #101010;
+	border: 1px dashed #85bb6f;
+	color: #85bb6f;
+}
+pre * {
+    color: #85bb6f!important;
+}
+.toc, .mw-warning, .toccolours {
+	background: #2d2d2d;
+	border-color: #5a5a5d;
+	border-radius: 3px!important;
+}
+#pagehistory li {
+	border: 1px solid #38383c;
+	margin-bottom: 4px;
+	padding: 0 4px;
+}
+#pagehistory li.selected, #pagehistory li:hover {
+	background-color: #2D2D30;
+	border: 1px solid #38383c;
+	color: #fff;
+}
+#mw-indicator-mw-helplink a {
+	filter: invert(100%);
+	color: #000;
+}
+fieldset {
+	border-color: #38383c;
+	border-radius: 0.625rem;
+}
+input[type='submit'], input[type='button'],
+input[type='reset'], input[type='file'] {
+	background: #2d2d30;
+	border: 1px solid #6dd1ff;
+	border-radius: 3px;
+	padding: 2px 15px;
+	color: #6dd1ff;
+	cursor: pointer;
+	transition: .2s all ease-in-out;
+}
+input[type='submit']:hover, input[type='button']:hover,
+input[type='reset']:hover, input[type='file']:hover {
+	background: #242425;
+	border-color: #fff;
+	color: #fff;
+}
+table.wikitable, .mw-datatable, .mw-datatable td,
+.oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button,
+.oo-ui-buttonGroupWidget .oo-ui-buttonElement-framed.oo-ui-widget-disabled + .oo-ui-widget-disabled > .oo-ui-buttonElement-button,
+.mw_metadata td, .mw_metadata th {
+	background-color: #242425;
+	border: 1px solid #38383c;
+	color: #fff;
+}
+table.wikitable > tr > th, table.wikitable > * > tr > th,
+.mw-datatable th, .mw-datatable tr:hover td {
+	background-color: #2D2D30;
+}
+table.wikitable > tr > th, table.wikitable > tr > td,
+table.wikitable > * > tr > th, table.wikitable > * > tr > td,
+.mw-datatable, .mw-datatable td, .mw-datatable th, .mw_metadata th {
+	border: 1px solid #4d4e54;
+}
+code {
+	background-color: #1f1f1f;
+	border: 1px solid #4d4e54;
+	color: #fff;
+}
+.mw-ui-button-group a:hover {
+    color: #444;
+}
+.mw-mmv-post-image, .mw-mmv-image-metadata, .mw-mmv-image-links li {
+	background-color: #242425;
+	border-color: #38383c;
+	color: #fff;
+}
+.mw-number-text {
+	color: #777;
+}
+#mw-createaccount-join {
+	background-color: #168a4e;
+	border-color: #168a4e;
+	color: #fff;
+	box-shadow: none;
+}
+#mw-createaccount-join:hover, #mw-createaccount-join:active {
+	background-color: #2a965e;
+	border-color: #2a965e;
+	color: #fff;
+}

@@ -4,7 +4,7 @@ https://www.xenopedia.it/MediaWiki:Vector.css */
 /**** Sfondo ****/
 
 body {
-	background: #000000 url(http://umbrawiki.netsons.org/images/f/f7/Moon.png) no-repeat fixed;
+	background: #000 url(http://umbrawiki.netsons.org/images/f/f7/sfondo.png) no-repeat fixed;
 }
 #mw-page-base {
 	background: none;
@@ -12,8 +12,8 @@ body {
 
 /**** Colore testo ****/
 
-h1, h2, h3, h4, h5, h6, .mw-body, .parsoid-body, #mw-panel .portal h3, 
-.vectorTabs li.selected a, .vectorTabs li.selected a:visited, 
+h1, h2, h3, h4, h5, h6, .mw-body, .parsoid-body, #mw-panel .portal h3,
+.vectorTabs li.selected a, .vectorTabs li.selected a:visited,
 .search-types .current a, .tocnumber, #bodyContent .mw-number-text h3 {
 	color: #fff;
 }
@@ -25,8 +25,8 @@ a, a:visited, #mw-panel .portal .body li a, .toctogglelabel,
 	color: #6dd1ff;
 	transition: .2s all ease-in-out;
 }
-a:hover, a:visited:hover, #mw-panel .portal .body li a:hover, 
-.toctogglelabel:hover, #mw-panel .portal .body li a:visited:hover, 
+a:hover, a:visited:hover, #mw-panel .portal .body li a:hover,
+.toctogglelabel:hover, #mw-panel .portal .body li a:visited:hover,
 .vectorTabs li a:hover, .vectorMenu li a:hover {
 	color: #fff;
 }
@@ -34,7 +34,7 @@ a:hover, a:visited:hover, #mw-panel .portal .body li a:hover,
 /**** Colore link pagine vuote ****/
 
 a.new, #p-personal a.new, a.new:visited, #p-personal a.new:visited,
-.vectorTabs li.new a, .vectorTabs li.new a:visited, a.new:hover, 
+.vectorTabs li.new a, .vectorTabs li.new a:visited, a.new:hover,
 #p-personal a.new:hover, a.new:visited:hover, #p-personal a.new:visited:hover,
 .vectorTabs li.new a:hover, .vectorTabs li.new a:visited:hover {
 	color: #ff6a99;
@@ -42,16 +42,16 @@ a.new, #p-personal a.new, a.new:visited, #p-personal a.new:visited,
 
 /**** Colore link esterni ****/
 
-.mw-parser-output a.external, .mw-parser-output a.external:active, 
+.mw-parser-output a.external, .mw-parser-output a.external:active,
 .mw-parser-output a.extiw, .mw-parser-output a.extiw:active {
 	color: #84b6f7;
 }
 .mw-parser-output a.external:visited, .mw-parser-output a.extiw:visited {
 	color: #adabff;
 }
-.mw-parser-output a.external:hover, .mw-parser-output a.external:active:hover, 
+.mw-parser-output a.external:hover, .mw-parser-output a.external:active:hover,
 .mw-parser-output a.extiw:hover, .mw-parser-output a.extiw:active:hover,
-.mw-parser-output a.external:visited:hover, 
+.mw-parser-output a.external:visited:hover,
 .mw-parser-output a.extiw:visited:hover {
 	color: #fff;
 }
@@ -170,7 +170,7 @@ div.thumbinner {
 .catlinks {
 	border-radius: 0.625rem;
 }
-.catlinks, .mw-search-profile-tabs, .list-header, #filetoc, 
+.catlinks, .mw-search-profile-tabs, .list-header, #filetoc,
 li.gallerybox div.thumb {
     border: 1px solid #48484a;
     background-color: #29292b;
@@ -216,7 +216,7 @@ fieldset {
 	border-color: #38383c;
 	border-radius: 0.625rem;
 }
-input[type='submit'], input[type='button'], 
+input[type='submit'], input[type='button'],
 input[type='reset'], input[type='file'] {
 	background: #2d2d30;
 	border: 1px solid #6dd1ff;
@@ -226,7 +226,7 @@ input[type='reset'], input[type='file'] {
 	cursor: pointer;
 	transition: .2s all ease-in-out;
 }
-input[type='submit']:hover, input[type='button']:hover, 
+input[type='submit']:hover, input[type='button']:hover,
 input[type='reset']:hover, input[type='file']:hover {
 	background: #242425;
 	border-color: #fff;
@@ -240,11 +240,11 @@ table.wikitable, .mw-datatable, .mw-datatable td,
 	border: 1px solid #38383c;
 	color: #fff;
 }
-table.wikitable > tr > th, table.wikitable > * > tr > th, 
+table.wikitable > tr > th, table.wikitable > * > tr > th,
 .mw-datatable th, .mw-datatable tr:hover td {
 	background-color: #2D2D30;
 }
-table.wikitable > tr > th, table.wikitable > tr > td, 
+table.wikitable > tr > th, table.wikitable > tr > td,
 table.wikitable > * > tr > th, table.wikitable > * > tr > td,
 .mw-datatable, .mw-datatable td, .mw-datatable th, .mw_metadata th {
 	border: 1px solid #4d4e54;
@@ -291,7 +291,7 @@ code {
 .wikiEditor-ui .wikiEditor-ui-view {
 	border: 1px solid #38383c;
 }
-.wikiEditor-ui-toolbar .tabs span.tab a, 
+.wikiEditor-ui-toolbar .tabs span.tab a,
 .wikiEditor-ui-toolbar .tabs span.tab a:visited {
 	color: #2a549a;
 }
@@ -311,7 +311,7 @@ code {
 	border-radius: 8px;
 	border: 1px dashed #242425;
 }
-.tool-button.tool-active, 
+.tool-button.tool-active,
 .tool.tool-active.oo-ui-buttonElement-frameless.oo-ui-iconElement {
 	padding: 3px 3px 2px 4px;
 	background: #b5b5b5;
@@ -320,7 +320,7 @@ code {
 }
 .wikiEditor-ui-toolbar {
 /* Fix rapido ma non ottimale per cambiare il colore dei file svg */
-	filter: invert(100%); 
+	filter: invert(100%);
 	color: #753617;
 }
 .wikiEditor-ui-toolbar .sections .section {
@@ -330,8 +330,8 @@ code {
 .wikiEditor-ui-toolbar .booklet .index .current {
 	background-color: #e2e2e2;
 }
-.wikiEditor-ui-toolbar .booklet .index div, 
-.wikiEditor-ui-toolbar .tabs span.tab a, 
+.wikiEditor-ui-toolbar .booklet .index div,
+.wikiEditor-ui-toolbar .tabs span.tab a,
 .wikiEditor-ui-toolbar .tabs span.tab a:visited {
 	color: #753617;
 }
@@ -347,7 +347,7 @@ code {
 }
 .wikiEditor-ui .wikiEditor-ui-top {
 	border-bottom: 1px solid #38383c;
-}	
+}
 
 /**** Preferenze ****/
 
@@ -364,8 +364,8 @@ code {
 .oo-ui-tabOptionWidget {
 	color: #6dd1ff;
 }
-.oo-ui-tabOptionWidget.oo-ui-optionWidget-selected, 
-.oo-ui-tabOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget-selected:hover, 
+.oo-ui-tabOptionWidget.oo-ui-optionWidget-selected,
+.oo-ui-tabOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget-selected:hover,
 .oo-ui-tabOptionWidget.oo-ui-widget-enabled:hover {
 	background-color: #242425;
 	color: #fff;
@@ -373,7 +373,7 @@ code {
 .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected .oo-ui-labelElement-label {
 	border-bottom-color: transparent;
 }
-.mw-email-not-authenticated .oo-ui-labelWidget, 
+.mw-email-not-authenticated .oo-ui-labelWidget,
 .mw-email-none .oo-ui-labelWidget {
 	background-color: #161619;
 	border: 1px dashed #ff6a99;
@@ -459,6 +459,7 @@ ol.references li:target, sup.reference:target {
 }
 
 /**** classi non compatibili con altre skin ****/
+
 .background-bg, .background-rows tbody td, .std-table tbody td, .background-rows.grid > :not(:first-child) > :not(.grid-header), .grid.std-table > :not(:first-child) > :not(.grid-header), .bg-background {
     background: #242425; /* vedi issue #15 */
 }
