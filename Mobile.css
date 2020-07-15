@@ -167,29 +167,6 @@ Miscellaneous styles
     padding-left: 0.4375rem;
 }
 
-.copytag {
-    padding: 0.25em;
-    width: 100%;
-}
-
-.copytag-red {
-    background: linear-gradient(to right, #FFF6F6, #FFDDDD);
-}
-
-.copytag-yellow {
-    background: linear-gradient(to right, #FFFFE6, #FFFFC5);
-}
-
-.copytag-text {
-    padding: 0.5em;
-    text-align: center;
-    width: 99%;
-}
-
-.copytag-sym {
-    padding: 0;
-}
-
 .explain[title] {
     -webkit-text-decoration: underline dotted;
        -moz-text-decoration: underline dotted;
